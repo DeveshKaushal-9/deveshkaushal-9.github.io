@@ -1,0 +1,478 @@
+\documentclass[11pt]{article}
+
+% ---------- Packages ----------
+\usepackage[top=0.7in,bottom=0.7in,left=0.75in,right=0.75in]{geometry}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{fontawesome5}
+\usepackage{hyperref}
+\usepackage{charter}
+\usepackage{longtable}
+
+\pagenumbering{gobble}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{noitemsep,topsep=2pt}
+
+% ---------- Colors ----------
+\definecolor{headingblue}{RGB}{60,110,170}
+\definecolor{namegray}{RGB}{0,0,0}
+
+% Keep body text + links black
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=black,citecolor=black}
+
+% ---------- Section Style ----------
+\newcommand{\cvsection}[1]{%
+\vspace{12pt}%
+\noindent%
+{\color{headingblue}\rule{40pt}{5pt}}%
+\hspace{10pt}%
+{\Large\textbf{\color{headingblue}#1}}%
+\vspace{6pt}%
+\color{black}%
+}
+
+% =====================================================
+\begin{document}
+
+% =====================================================
+% HEADER
+% =====================================================
+
+\begin{tabularx}{\textwidth}{Xr}
+
+{\fontsize{36}{36}\selectfont\color{namegray} DEVESH KAUSHAL}
+
+&
+\small
+\faPhone\ 9818535128 \\
+&
+\faEnvelope\ Deveshkaushal9@gmail.com \\
+&
+\faLinkedin\ LinkedIn \\
+&
+\faGraduationCap\ Google Scholar \\
+
+\end{tabularx}
+
+\vspace{6pt}
+% {\Large\itshape Curriculum Vitae}
+
+% =====================================================
+% EDUCATION
+% =====================================================
+% =====================================================
+% RESEARCH INTERESTS
+% =====================================================
+
+\cvsection{Research Interests}
+
+AI Systems Assurance and Evaluation, Safety-Critical Machine Learning, Robustness and Failure Modes of Autonomous Systems, Multi-Agent System Evaluation, Physical-World AI Modeling, AI for Real-World Risk Prediction
+\cvsection{Education}
+
+\begin{tabularx}{\textwidth}{p{90pt}X}
+
+2022--2026 &
+\textbf{Bachelor of Technology, Computer Science and Engineering} \\
+& I.K. Gujral Punjab Technical University \\
+
+\end{tabularx}
+
+% =====================================================
+% RESEARCH EXPERIENCE
+% =====================================================
+
+\cvsection{Research Experience}
+
+\begingroup
+\renewcommand{\arraystretch}{1.1}
+\begin{tabularx}{\textwidth}{@{}p{95pt}X@{}}
+
+{\small\color{namegray}Present} &
+\textbf{Indian Institute of Technology Delhi}\hfill\textit{Undergraduate Research Assistant}
+
+\begin{itemize}[leftmargin=*,nosep]
+\item Working on FALLSAFE drone and AI terrain risk mapping framework.
+\item Developing UAV terrain modelling pipelines producing DSM, DOM, and 3D surface reconstructions.
+\item Integrating geological modelling and GIS workflows for slope instability analysis.
+\item Performing failed slope back-analysis using drone reconstructions.
+\item Supporting ML-based terrain risk prediction models.
+\item Applied machine learning models to support data-driven risk assessment and operational decision-making in real-world settings.
+
+\end{itemize}
+\\[6pt]
+
+{\small\color{namegray}June--Aug 2025} &
+\textbf{Indian Institute of Technology Ropar}\hfill\textit{Research Intern}
+
+\begin{itemize}[leftmargin=*,nosep]
+\item Conducted wireless sensing research using WiFi CSI.
+\item Developed LightPoseNet pose estimation model.
+\item Paper accepted at IEEE Massachusetts Institute of Technology URTC 2025.
+\item Built CSI preprocessing pipelines.
+\end{itemize}
+\\[6pt]
+
+{\small\color{namegray}July--Sept 2025} &
+\textbf{Centre for National Security Studies}\hfill\textit{Research Intern}
+
+\begin{itemize}[leftmargin=*,nosep]
+\item Studied emerging defence technologies and UAV surveillance.
+\item Authored research articles on national security innovations.
+\end{itemize}
+
+\end{tabularx}
+\endgroup
+
+
+
+% =====================================================
+% PUBLICATIONS & PRESENTATIONS
+% =====================================================
+
+% =====================================================
+% CONFERENCE PRESENTATIONS & PUBLICATIONS
+% =====================================================
+
+\cvsection{Conference Presentations \& Publications}
+
+\begingroup
+\renewcommand{\arraystretch}{1.1}
+% \begin{tabularx}{\textwidth}{@{}p{95pt}X@{}}
+\begin{longtable}{@{}p{95pt}p{\dimexpr\textwidth-95pt\relax}@{}}
+
+Jan 2026 &
+\textbf{AAAI – Empowering Global South AI (EGSAI Workshop)} \hfill \textit{Singapore}
+
+\begin{itemize}[leftmargin=*,nosep]
+\item Poster accepted at AAAI 2026 EGSAI Workshop.
+\item Invited to submit camera-ready version and 3-minute research presentation.
+\end{itemize}
+\\[6pt]
+
+Dec 2025 &
+\textbf{IEEE International Conference on Edge Computing (ICEdge)} \hfill \textit{IISc Bangalore}
+
+\begin{itemize}[leftmargin=*,nosep]
+\item Accepted for R\&D Showcase and Student Forum.
+\item Presented \textit{LightPoseNet: Lightweight Human Pose Estimation from WiFi Signals}.
+\item Demonstrated privacy-preserving 3D pose estimation using commodity WiFi.
+\end{itemize}
+\\[6pt]
+
+Dec 2025 &
+\textbf{TechConnect – ResCon Poster Competition} \hfill \textit{IIT Bombay}
+
+\begin{itemize}[leftmargin=*,nosep]
+\item Selected finalist for poster presentation round.
+\item Presented WiFi-based privacy-preserving 3D pose estimation research.
+\end{itemize}
+\\[6pt]
+
+Oct 2025 &
+\textbf{IEEE MIT Undergraduate Research Technology Conference (URTC)} \hfill \textit{Cambridge, MA}
+
+\begin{itemize}[leftmargin=*,nosep]
+\item Accepted paper: \textit{LightPoseNet: Lightweight Human Pose Estimation from WiFi CSI}.
+\item Developed real-time WiFi-based 3D pose estimation evaluated on WiPose dataset.
+\end{itemize}
+\\[6pt]
+
+June 2025 &
+\textbf{International Conference on Electronics, AI and Computing (EAIC)}\hfill \textit{NIT Jalandhar}
+
+\begin{itemize}[leftmargin=*,nosep]
+\item Paper: \textit{Radar-Based UAV Classification: A Micro-Doppler and Deep Learning Approach}.
+\item Proposed deep learning model for UAV classification using radar micro-Doppler signatures.
+\end{itemize}
+\\[6pt]
+
+May 2025 &
+\textbf{Interdisciplinary Conference on AI \& Cognitive Science} \hfill \textit{University of Cambridge, UK}
+
+\begin{itemize}[leftmargin=*,nosep]
+\item Presented airborne object detection using EfficientNetB3.
+\item Selected as one of 65 global presenters.
+\end{itemize}
+\\[6pt]
+
+March 2025 &
+\textbf{International Conference on Statistical Learning (ICSL)} \hfill \textit{IIT Ropar}
+
+\begin{itemize}[leftmargin=*,nosep]
+\item Presented signal processing and ML methods for UAV detection.
+\end{itemize}
+
+\end{longtable}
+\endgroup
+
+% =====================================================
+% RESEARCH PROJECTS
+% =====================================================
+% =====================================================
+% RESEARCH PROJECTS
+% =====================================================
+
+\cvsection{Research Projects}
+
+\begingroup
+\renewcommand{\arraystretch}{1.1}
+\begin{tabularx}{\textwidth}{@{}p{95pt}X@{}}
+
+2026 &
+\textbf{Geometry-Aware Terrain Reconstruction using Drone Photogrammetry and Learning-Based Surface Modeling}
+
+\begin{itemize}[leftmargin=*,nosep]
+\item Developing a pipeline for reconstructing high-resolution 3D terrain surfaces from UAV photogrammetry data.
+\item Integrating classical geometry processing techniques with deep learning for surface smoothing and feature extraction.
+\item Exploring mesh representations, point-cloud processing, and geometric feature descriptors for terrain risk analysis.
+\item Applying computational geometry methods to enhance geospatial modeling and data-driven slope instability assessment.
+\item Studying discrete differential geometry concepts including curvature estimation, Laplacian smoothing, and mesh optimization.
+\item \textbf{Tools:} Open3D, PyVista, PyMeshLab; self-studied discrete differential geometry (curvature, Laplace–Beltrami operators, mesh processing) using Keenan Crane’s CMU course materials.
+
+\end{itemize}
+\\[6pt]
+
+2025 &
+\textbf{LightPoseNet: 3D Human Pose Estimation from WiFi CSI}
+
+\begin{itemize}[leftmargin=*,nosep]
+\item Developed lightweight CNN framework for WiFi-based 3D human pose estimation.
+\item Proposed baseline and SE-attention variants achieving \textbf{40 mm MPJPE} and \textbf{93.31\% PCK@0.10}.
+\item Achieved \textbf{300× parameter reduction} enabling real-time edge deployment.
+\item Designed privacy-preserving, through-wall pose sensing using commodity WiFi.
+\end{itemize}
+\\[6pt]
+
+2025 &
+\textbf{Radar-Based UAV Classification: Micro-Doppler and Deep Learning}
+
+\begin{itemize}[leftmargin=*,nosep]
+\item Developed deep learning pipeline for radar-based drone vs bird classification.
+\item Fine-tuned \textbf{EfficientNetB3} achieving \textbf{97.10\% classification accuracy}.
+\item Utilized DIAT-µSAT micro-Doppler dataset from Defence Institute of Advanced Technology.
+\end{itemize}
+\\[6pt]
+
+2024 &
+\textbf{AI-Powered Disaster Prediction Using Geospatial Data}
+
+\begin{itemize}[leftmargin=*,nosep]
+\item Presented system at IIT Kanpur disaster technology showcase.
+\item Built ML pipeline combining satellite imagery and environmental data.
+\item Integrated GIS features for spatio-temporal flood and landslide forecasting.
+\end{itemize}
+\\[6pt]
+
+
+
+\end{tabularx}
+\endgroup
+
+% =====================================================
+% TECHNICAL SKILLS
+% =====================================================
+
+% =====================================================
+% TECHNICAL SKILLS
+% =====================================================
+
+\cvsection{Technical Skills}
+
+\textbf{Programming:} Python, Dart, SQL, JavaScript, C, Java \\
+\textbf{Machine Learning \& AI:} PyTorch, TensorFlow, scikit-learn, OpenCV, HuggingFace Transformers, LangChain, LLaMA, OpenAI API, Pinecone \\
+\textbf{Developer Tools:} Git, GitHub, Docker, Firebase, Jupyter Notebooks, Android Studio, Postman, VS Code
+
+
+
+% =====================================================
+% SUMMER SCHOOLS & ADVANCED PROGRAMS
+% =====================================================
+\newpage
+\cvsection{Fellowship}
+
+\begingroup
+\renewcommand{\arraystretch}{1.05}
+\begin{longtable}{@{}p{95pt}p{\dimexpr\textwidth-95pt\relax}@{}}
+
+2025 &
+\textbf{ACM India COMPUTE Fellow} \hfill \textit{IIT Ropar}
+\begin{itemize}[leftmargin=*,nosep]
+\item Selected COMPUTE 2025 Fellow for ACM India and iSIGCSE computing education conference.
+\item Participated in technical sessions, expert talks, and academic networking events.
+\end{itemize}
+\\[4pt]
+
+% \end{itemize}
+
+\end{longtable}
+\endgroup
+\cvsection{Summer Schools \& Advanced Programs}
+
+\begingroup
+\renewcommand{\arraystretch}{1.05}
+\begin{longtable}{@{}p{95pt}p{\dimexpr\textwidth-95pt\relax}@{}}
+
+
+
+2025 &
+\textbf{EE Summer School} \hfill \textit{Indian Institute of Science (IISc), Bangalore}
+\begin{itemize}[leftmargin=*,nosep]
+\item Selected among 100 students nationwide.
+\item Completed advanced modules in signal processing, control systems, power electronics, and renewable energy integration.
+\end{itemize}
+\\[4pt]
+
+2025 &
+\textbf{IEEE–EURASIP Summer School on Signal Processing (S3P)} \hfill \textit{Tuscany, Italy}
+\begin{itemize}[leftmargin=*,nosep]
+\item Selected undergraduate participant for advanced research-focused signal processing program designed primarily for PhD researchers.
+\end{itemize}
+\\[4pt]
+
+2025 &
+\textbf{Oxford Machine Learning Summer School (OxML)} \hfill \textit{University of Oxford}
+\begin{itemize}[leftmargin=*,nosep]
+\item Accepted for intensive coursework in machine learning, deep learning, and AI applications.
+\item Selected among competitive global applicants.
+\end{itemize}
+
+\end{longtable}
+\endgroup
+
+
+\cvsection{Referees}
+
+\begin{minipage}[t]{0.45\textwidth}
+\textbf{Dr. Sumeet Kumar Sinha}\\
+\textit{Assistant Professor}\\
+Dept. of Civil \& Environmental Engineering\\
+IIT Delhi\\
+\faEnvelope\ sksinha@civil.iitd.ac.in
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+\textbf{Prof. (Dr.) Vikas Chawla}\\
+\textit{Director}\\
+I.K. Gujral Punjab Technical University\\
+\faEnvelope\ vikas.chawla@ptu.ac.in
+\end{minipage}
+\hfill
+
+
+
+
+\cvsection{Grants \& Funding}
+
+\begingroup
+\renewcommand{\arraystretch}{1.1}
+\begin{tabularx}{\textwidth}{@{}p{95pt}X@{}}
+
+2026 &
+\textbf{Travel Grant – TreeHacks} \hfill \textit{Stanford University}
+
+\begin{itemize}[leftmargin=*,nosep]
+\item Awarded travel reimbursement grant to participate in TreeHacks 2026.
+\item Selected for highly competitive international hackathon hosted at Stanford University.
+\end{itemize}
+\\[6pt]
+
+2025 &
+\textbf{Travel Grant – Code for Good Hackathon} \hfill \textit{IIT Mandi}
+
+\begin{itemize}[leftmargin=*,nosep]
+\item Received travel and accommodation grant from I.K. Gujral Punjab Technical University.
+\item Selected among top 10 teams nationwide based on technical innovation.
+\end{itemize}
+\\[6pt]
+
+2025 &
+\textbf{IISc EE Summer School Grant} \hfill \textit{Indian Institute of Science, Bangalore}
+
+\begin{itemize}[leftmargin=*,nosep]
+\item Awarded competitive grant to attend IISc EE Summer School 2025.
+\item Selected among 100 participants nationwide.
+\item Completed advanced modules in signal processing, control systems and power electronics.
+\end{itemize}
+
+\end{tabularx}
+\endgroup
+
+
+% =====================================================
+% LEADERSHIP
+% =====================================================
+
+% =====================================================
+% LEADERSHIP & EXTRACURRICULAR
+% =====================================================
+\newpage
+\cvsection{Leadership \& Extracurricular}
+
+\begingroup
+\renewcommand{\arraystretch}{1.1}
+\begin{tabularx}{\textwidth}{@{}p{95pt}X@{}}
+
+2023--2024 &
+\textbf{Google Developer Student Clubs (GDSC)} \hfill \textit{Android Core Team Member, IKGPTU Main Campus}
+
+\begin{itemize}[leftmargin=*,nosep]
+\item Organized workshops and technical events on Android development.
+\item Conducted peer training sessions on mobile application deployment.
+\item Mentored students during hackathons and coding competitions.
+\end{itemize}
+\\[6pt]
+
+2024--2025 &
+\textbf{Bizarre Coder} \hfill \textit{Team Lead, IKGPTU Main Campus}
+
+\begin{itemize}[leftmargin=*,nosep]
+\item Coordinated technical teams and organized coding workshops.
+\item Mentored students participating in hackathons and collaborative projects.
+\item Facilitated project-based coding sessions to enhance real-world development skills.
+\end{itemize}
+
+\end{tabularx}
+\endgroup
+
+% =====================================================
+% ACHIEVEMENTS
+% =====================================================
+% =====================================================
+% ACHIEVEMENTS
+% =====================================================
+
+\cvsection{Achievements}
+
+\begin{itemize}[leftmargin=*,nosep]
+\item Selected participant — \textbf{MIT Hacking Medicine Grand Hack 2026} (\textbf{MIT}, Boston);wil contribute to the \textbf{Trauma \& Rehabilitation} track, developing rapid, interdisciplinary healthcare innovation solutions.
+
+\item Selected for \textbf{TreeHacks 2026} at \textbf{Stanford University}, chosen from 15,000+ global applicants.
+\item{Selected to participate in the \textbf{MIT iQuHACK 2026 Remote Competition}, one of the world’s largest student-run \textbf{quantum computing hackathons}, hosted by \textbf{Massachusetts Institute of Technology (MIT)}.}
+
+\item Selected presenter at the \textbf{Interdisciplinary Conference on AI \& Cognitive Science}, University of Cambridge, UK.
+  \item{Selected as a \textbf{COMPUTE 2025 Fellow} for the 8\textsuperscript{th} ACM India and iSIGCSE conference on computing education, held at \textbf{IIT Ropar}.}
+
+  \item {Selected for the \textbf{Online Winter Design Camp} organized by the \textbf{Design Experience Lab, IIT Ropar}, powered by \textbf{Dassault Syst\`emes}.}
+
+\item \textbf{1st Place} – Internal Smart India Hackathon (SIH) selection round.
+
+\item \textbf{Finalist} – Code for Good Hackathon, IIT Mandi (Top 10 of 550 teams).
+
+\item \textbf{Finalist} – Hackfest, IIT (ISM) Dhanbad (Top 70 of 1,200 teams).
+
+\item \textbf{Top 40 Teams} – IIIT Naya Raipur Hackathon (1,764 teams).
+
+\item \textbf{Finalist} – Hack’Ndore (Top 100 of 1,100 teams).
+
+\item \textbf{Top 400 Teams} – HackWithIndia (1,500 teams).
+
+\item Advanced to Round 2 – Haryana Police Narcotics Hackathon, IGDTUW Hackathon, and Bank of Baroda Hackathon.
+
+\item Mentored 50+ students in mobile app development and machine learning during a national hackathon (Final round hosted at Microsoft Office, Gurgaon).
+
+\end{itemize}
+
+% =====================================================
+\end{document}
